@@ -1,0 +1,125 @@
+body,
+html {
+  height: 100%;
+  background-color: #0d47a1;
+}
+
+div.container-1-div {
+  /* Formation */
+  width: 92vw;
+  height: 90vh;
+  background-color: #fafafa;
+  border-radius: 5px;
+  /* Centering : Help('https://stackoverflow.com/questions/396145/how-to-vertically-center-a-div-for-all-browsers')*/
+  margin-left: 6vh;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  /* Shadow Customization: Design('https://codepen.io/sdthornton/pen/wBZdXq?editors=0100') */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Basic Color('https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=0D47A1&secondary.color=FAFAFA') */
+
+/* Font Compare Style */
+div.three-a {
+  display: flex;
+}
+
+div.three-a > p {
+  margin: 0 0 0 40px;
+}
+
+div.three-a > p.three-a-bold {
+  font-weight: 700;
+}
+
+div.three-a > p.three-a-medium {
+  font-weight: 500;
+}
+
+div.three-a > p.three-a-light {
+  font-weight: 300;
+}
+
+div.body-setup {
+  display: flex;
+}
+
+div.body-setup > div {
+  margin: 0 0 0 40px;
+}
+
+.normal-para {
+  padding-right: 20px;
+}
+
+.bold-para {
+  font-weight: 700;
+}
+
+.italic-para {
+  font-style: italic;
+  padding-right: 20px;
+}
+
+/* Setting-App */
+
+/*
+a.settings-app {
+  margin: 90vw;
+  font-size: 20px;
+}
+
+a.settings-app:link {
+  text-decoration: none;
+}
+
+a.settings-app:visited {
+  text-decoration: none;
+}*/
+
+.maxbutton {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #505ac7;
+  border-radius: 4px 4px 4px 4px;
+  background-color: #505ac7;
+  -webkit-box-shadow: 0px 0px 2px 0px #333333;
+  -moz-box-shadow: 0px 0px 2px 0px #333333;
+  box-shadow: 0px 0px 2px 0px #333333;
+}
+
+.maxbutton .mb-text {
+  color: #ffffff;
+  font-family: Tahoma;
+  font-size: 14px;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1em;
+  box-sizing: border-box;
+  display: block;
+  background-color: unset;
+  position: relative;
+  padding: 8px 0px 0px 2px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  .maxbutton {
+    width: 90%;
+  }
+  .maxbutton .mb-text {
+    font-size: 11px;
+  }
+}
+
+/* Pop Up */
+/* Popup box BEGIN */
+
+/* Popup box BEGIN */

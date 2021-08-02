@@ -1,0 +1,48 @@
+.font-starter {
+  font-weight: 500;
+}
+
+.font-input {
+  display: flex;
+  justify-content: center;
+}
+
+.font-input > input {
+  height: 20px;
+}
+
+div.three-a {
+  display: flex;
+}
+
+div.three-a > p {
+  margin: 0 0 0 40px;
+}
+
+div.three-a > p.three-a-bold {
+  font-weight: 700;
+}
+
+div.three-a > p.three-a-medium {
+  font-weight: 500;
+}
+
+div.three-a > p.three-a-light {
+  font-weight: 300;
+}
+
+div.body-setup {
+  display: flex;
+}
+
+div.body-setup > div {
+  margin: 0 0 0 40px;
+}
+
+.bold-para {
+  font-weight: 700;
+}
+
+.italic-para {
+  font-style: italic;
+}
